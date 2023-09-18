@@ -1,0 +1,33 @@
+/* test command css */
+h1{
+    font-style: italic;
+    color: green;
+    /* !important */
+}
+.font-italic {
+    font-style: italic;
+}
+
+.font-big {
+    font-size: 100px;
+}
+
+.font-size {
+    font-size: 150px;
+}
+
+.color-red {
+    color: red;
+}
+
+#bg-blue {
+    background-color: blue;
+}
+
+div,
+p,
+h1 {
+    background-color: chartreuse
+    !important;
+    /* greenyellow as alternative */
+}
