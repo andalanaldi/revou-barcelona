@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Persegi Panjang</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction: column-reverse; */
+            /* only  text move from row left to the right if no container div conatined all 3 divs*/
+            /* flex-wrap: wrap; */
+            flex-flow: column-reverse;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: flex-end;
+            gap: 20px;
+        }
+
+        .rectangle{
+           width: 200px;
+           height: 100px;
+           color: white; 
+        }
+
+        #rectangle-purple {
+            background-color: purple;
+            padding: 20px;
+            border: 1px dashed white;
+            margin-top: 20px;
+            margin-bottom: 35px;
+        }
+
+        #rectangle-green {
+            margin-top: 20px;
+            background-color: green;
+        }
+
+        #rectangle-red {
+        margin-top: 20px;
+        background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle" id="rectangle-purple">Ungu</div>
+        <div class="rectangle" id="rectangle-green">Ijo</div>
+        <div class="rectangle" id="rectangle-red">Merah</div>
+    </div>
+</body>
+</html>
